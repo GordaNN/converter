@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_chapter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_household"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_currency"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_clothing_shoe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_clothing_shoe"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_cooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_cooking"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_fuel_consumption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_fuel_consumption"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_time"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_mathematics"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_angle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_angle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_numbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_numbers"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_units_fractions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_units_fractions"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_si_prefixes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_si_prefixes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_astronomy_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_astronomy_distance"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_dimension"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_length"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_area"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_volume"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_motion"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_speed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_acceleration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_acceleration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_angular_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_angular_speed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_flow_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_flow_rate"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_computer_science"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_data_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_data_storage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_data_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_data_transfer"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_mechanics"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_pressure"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_weight"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_force"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_force"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_torque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_torque"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_chemistry"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_density"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_density"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_dynamic_viscosity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_dynamic_viscosity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_kinematic_viscosity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_kinematic_viscosity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_mineralization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_mineralization"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_energy"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_energy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_energy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_power"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_power"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_temperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_temperature"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_electricity"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_electric_charge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_electric_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_electric_current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_electric_current"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_electrical_resistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_electrical_resistance"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_electric_potential"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_electric_potential"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_electric_capacitance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_electric_capacitance"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_photometry"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_luminance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_luminance"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_illuminance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_illuminance"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_radioactivity"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_radiation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_radiation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_radioactivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_radioactivity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_magnetism"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_magnetic_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_magnetic_field"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/text_view_chapter13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_chapter_other"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_section_typography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_typography"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/button_section_sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_section_sound"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

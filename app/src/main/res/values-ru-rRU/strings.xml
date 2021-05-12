@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Конвертер</string>
+
+    <string name="language">Язык</string>
+    <string-array name="locales">
+        <item>Системный</item>
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="app_chapter">Выбор раздела</string>
+    <string name="app_settings">Настройки</string>
+
+    <string name="app_switch_theme">Тёмная тема</string>
+
+    <string name="app_chapter_household">Бытовые</string>
+    <string name="app_chapter_mathematics">Математика</string>
+    <string name="app_chapter_dimension">Размеры</string>
+    <string name="app_chapter_motion">Движение</string>
+    <string name="app_chapter_computer_science">Информатика</string>
+    <string name="app_chapter_mechanics">Механика</string>
+    <string name="app_chapter_chemistry">Химия</string>
+    <string name="app_chapter_energy">Энергия</string>
+    <string name="app_chapter_electricity">Электричество</string>
+    <string name="app_chapter_photometry">Фотометрия</string>
+    <string name="app_chapter_radioactivity">Радиоактивность</string>
+    <string name="app_chapter_magnetism">Магнетизм</string>
+    <string name="app_chapter_other">Другое</string>
+
+    <string name="app_section_currency">Курс валют</string>
+    <string name="app_section_clothing_shoe">Размеры обуви и одежды</string>
+    <string name="app_section_cooking">Кулинария</string>
+    <string name="app_section_fuel_consumption">Расход топлива</string>
+    <string name="app_section_time">Время</string>
+
+    <string name="app_section_angle">Угол</string>
+    <string name="app_section_numbers">Числа</string>
+    <string name="app_section_units_fractions">Единицы и дроби</string>
+    <string name="app_section_si_prefixes">Приставки СИ</string>
+    <string name="app_section_astronomy_distance">Астрономические расстояния</string>
+
+    <string name="app_section_length">Длина</string>
+    <string name="app_section_area">Площадь</string>
+    <string name="app_section_volume">Объём</string>
+
+    <string name="app_section_speed">Скорость</string>
+    <string name="app_section_acceleration">Ускорение</string>
+    <string name="app_section_angular_speed">Угловая скорость</string>
+    <string name="app_section_flow_rate">Скорость потока</string>
+
+    <string name="app_section_data_storage">Объём данных</string>
+    <string name="app_section_data_transfer">Скорость передачи данных</string>
+
+    <string name="app_section_pressure">Давление</string>
+    <string name="app_section_weight">Масса</string>
+    <string name="app_section_force">Сила</string>
+    <string name="app_section_torque">Крутящий момент</string>
+
+    <string name="app_section_density">Плотность</string>
+    <string name="app_section_dynamic_viscosity">Динамическая вязкость</string>
+    <string name="app_section_kinematic_viscosity">Кинематическая вязкость</string>
+    <string name="app_section_mineralization">Минерализация</string>
+
+    <string name="app_section_energy">Энергия</string>
+    <string name="app_section_power">Мощность</string>
+    <string name="app_section_temperature">Температура</string>
+
+    <string name="app_section_electric_charge">Электрический заряд</string>
+    <string name="app_section_electric_current">Электрический ток</string>
+    <string name="app_section_electrical_resistance">Электрическое сопротивление</string>
+    <string name="app_section_electric_potential">Электростатический потенциал</string>
+    <string name="app_section_electric_capacitance">Электрический ёмкость</string>
+
+    <string name="app_section_luminance">Яркость</string>
+    <string name="app_section_illuminance">Освещённость</string>
+
+    <string name="app_section_radiation">Радиация</string>
+    <string name="app_section_radioactivity">Радиоактивность</string>
+
+    <string name="app_section_magnetic_field">Магнитное поле</string>
+
+    <string name="app_section_typography">Типография</string>
+    <string name="app_section_sound">Звук</string>
+</resources>

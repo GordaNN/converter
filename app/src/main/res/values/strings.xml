@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Converter</string>
+
+    <string name="language">Language</string>
+    <string-array name="locales">
+        <item>System</item>
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="app_chapter">Chapter Selection</string>
+    <string name="app_settings">Settings</string>
+
+    <string name="app_switch_theme">Dark theme</string>
+
+    <string name="app_chapter_household">Household</string>
+    <string name="app_chapter_mathematics">Mathematics</string>
+    <string name="app_chapter_dimension">Dimension</string>
+    <string name="app_chapter_motion">Motion</string>
+    <string name="app_chapter_computer_science">Computer science</string>
+    <string name="app_chapter_mechanics">Mechanics</string>
+    <string name="app_chapter_chemistry">Chemistry</string>
+    <string name="app_chapter_energy">Energy</string>
+    <string name="app_chapter_electricity">Electricity</string>
+    <string name="app_chapter_photometry">Photometry</string>
+    <string name="app_chapter_radioactivity">Radioactivity</string>
+    <string name="app_chapter_magnetism">Magnetism</string>
+    <string name="app_chapter_other">Other</string>
+
+    <string name="app_section_currency">Currency</string>
+    <string name="app_section_clothing_shoe">Clothing and shoe</string>
+    <string name="app_section_cooking">Cooking</string>
+    <string name="app_section_fuel_consumption">Fuel consumption</string>
+    <string name="app_section_time">Time</string>
+
+    <string name="app_section_angle">Angle</string>
+    <string name="app_section_numbers">Numbers</string>
+    <string name="app_section_units_fractions">Units and fractions</string>
+    <string name="app_section_si_prefixes">SI prefixes</string>
+    <string name="app_section_astronomy_distance">Astronomy distance</string>
+
+    <string name="app_section_length">Length</string>
+    <string name="app_section_area">Area</string>
+    <string name="app_section_volume">Volume</string>
+
+    <string name="app_section_speed">Speed</string>
+    <string name="app_section_acceleration">Acceleration</string>
+    <string name="app_section_angular_speed">Angular speed</string>
+    <string name="app_section_flow_rate">Flow rate</string>
+
+    <string name="app_section_data_storage">Data storage</string>
+    <string name="app_section_data_transfer">Data transfer</string>
+
+    <string name="app_section_pressure">Pressure</string>
+    <string name="app_section_weight">Weight</string>
+    <string name="app_section_force">Force</string>
+    <string name="app_section_torque">Torque</string>
+
+    <string name="app_section_density">Density</string>
+    <string name="app_section_dynamic_viscosity">Dynamic viscosity</string>
+    <string name="app_section_kinematic_viscosity">Kinematic viscosity</string>
+    <string name="app_section_mineralization">Mineralization</string>
+
+    <string name="app_section_energy">Energy</string>
+    <string name="app_section_power">Power</string>
+    <string name="app_section_temperature">Temperature</string>
+
+    <string name="app_section_electric_charge">Electric charge</string>
+    <string name="app_section_electric_current">Electric current</string>
+    <string name="app_section_electrical_resistance">Electrical resistance</string>
+    <string name="app_section_electric_potential">Electric potential</string>
+    <string name="app_section_electric_capacitance">Electric capacitance</string>
+
+    <string name="app_section_luminance">Luminance</string>
+    <string name="app_section_illuminance">Illuminance</string>
+
+    <string name="app_section_radiation">Radiation</string>
+    <string name="app_section_radioactivity">Radioactivity</string>
+
+    <string name="app_section_magnetic_field">Magnetic field</string>
+
+    <string name="app_section_typography">Typography</string>
+    <string name="app_section_sound">Sound</string>
+</resources>
