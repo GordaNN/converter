@@ -1,13 +1,6 @@
 <resources>
     <string name="app_name">Converter</string>
 
-    <string name="language">Language</string>
-    <string-array name="locales">
-        <item>System</item>
-        <item>Русский</item>
-        <item>English</item>
-    </string-array>
-
     <string name="app_chapter">Chapter Selection</string>
     <string name="app_settings">Settings</string>
 
@@ -81,4 +74,61 @@
 
     <string name="app_section_typography">Typography</string>
     <string name="app_section_sound">Sound</string>
+
+    <string name="app_dimension_length_picometer">Picometer</string>
+    <string name="app_dimension_length_nanometre">Nanometre</string>
+    <string name="app_dimension_length_micrometer">Micrometer</string>
+    <string name="app_dimension_length_millimeter">Millimeter</string>
+    <string name="app_dimension_length_centimeter">Centimeter</string>
+    <string name="app_dimension_length_decimeter">Decimeter</string>
+    <string name="app_dimension_length_meter">Meter</string>
+    <string name="app_dimension_length_kilometer">Kilometer</string>
+    <string name="app_dimension_length_inch">Inch</string>
+    <string name="app_dimension_length_foot">Foot</string>
+    <string name="app_dimension_length_yard">Yard</string>
+    <string name="app_dimension_length_mile_int">Mile (international)</string>
+    <string name="app_dimension_length_arshin">Arshin</string>
+    <string name="app_dimension_length_sazhen">Sazhen</string>
+    <string name="app_dimension_length_milestone">Milestone</string>
+    <string name="app_dimension_length_light_year">Light year</string>
+    <string name="app_dimension_length_angstrom">Angstrom</string>
+    <string name="app_dimension_length_elbow">Elbow (ancient oriental)</string>
+    <string name="app_dimension_length_vershok">Vershok</string>
+    <string name="app_dimension_length_unit">Unit</string>
+    <string name="app_dimension_length_leagues_over">Leagues (overland)</string>
+    <string name="app_dimension_length_span">Span</string>
+    <string name="app_dimension_length_furlong">Furlong</string>
+    <string name="app_dimension_length_parsec">Parsec</string>
+    <string name="app_dimension_length_astronomical_unit">Astronomical unit</string>
+    <string name="app_dimension_length_nautical_mile_uk">Nautical mile (UK)</string>
+    <string name="app_dimension_length_nautical_mile_int">Nautical mile (international)</string>
+    <string name="app_dimension_length_atomic_unit">Atomic unit</string>
+    <string name="app_dimension_length_caliber">Caliber</string>
+    <string name="app_dimension_length_electron_radius_cl">Electron radius (classical)</string>
+    <string name="app_dimension_length_bohr_radius">Bohr radius</string>
+    <string name="app_dimension_length_earths_equatorial_radius">Earth`s equatorial radius</string>
+    <string name="app_dimension_length_earths_polar_radius">Earth`s polar radius</string>
+    <string name="app_dimension_length_earths_sun_distance">Earth`s distance from Sun</string>
+    <string name="app_dimension_length_sun_radius">Sun`s radius</string>
+    <string name="app_dimension_length_planck_length">Planck length</string>
+    <string name="app_dimension_length_hand">Hand</string>
+    <string name="app_dimension_length_finger">Finger</string>
+    <string name="app_dimension_length_handbreadth_uk">Handbreadth (UK)</string>
+    <string name="app_dimension_length_aln_sw">Aln (Swedish)</string>
+    <string name="app_dimension_length_ken_j">Ken (Jap)</string>
+    <string name="app_dimension_length_centiinch">Centiinch</string>
+    <string name="app_dimension_length_point">Point</string>
+    <string name="app_dimension_length_fathom">Fathom</string>
+    <string name="app_dimension_length_rod">Rod</string>
+    <string name="app_dimension_length_inch_us">Inch (US survey)</string>
+    <string name="app_dimension_length_foot_us">Foot (US survey)</string>
+    <string name="app_dimension_length_fathom_us">Fathom (US survey)</string>
+    <string name="app_dimension_length_rod_us">Rod (US survey)</string>
+    <string name="app_dimension_length_chain_us">Chain (US survey)</string>
+    <string name="app_dimension_length_furlong_us">Furlong (US survey)</string>
+    <string name="app_dimension_length_mile_us">Mile (US survey)</string>
+    <string name="app_dimension_length_league">League</string>
+    <string name="app_dimension_length_nautical_league_uk">Nautical league (UK)</string>
+    <string name="app_dimension_length_nautical_league_int">Nautical league (international)</string>
+    <string name="app_dimension_length_cable_length">Cable length</string>
 </resources>

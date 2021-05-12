@@ -1,13 +1,6 @@
 <resources>
     <string name="app_name">Конвертер</string>
 
-    <string name="language">Язык</string>
-    <string-array name="locales">
-        <item>Системный</item>
-        <item>Русский</item>
-        <item>English</item>
-    </string-array>
-
     <string name="app_chapter">Выбор раздела</string>
     <string name="app_settings">Настройки</string>
 
@@ -81,4 +74,61 @@
 
     <string name="app_section_typography">Типография</string>
     <string name="app_section_sound">Звук</string>
+
+    <string name="app_dimension_length_picometer">Пикометр</string>
+    <string name="app_dimension_length_nanometre">Nanometre</string>
+    <string name="app_dimension_length_micrometer">Микрометр</string>
+    <string name="app_dimension_length_millimeter">Миллиметр</string>
+    <string name="app_dimension_length_centimeter">Сантиметр</string>
+    <string name="app_dimension_length_decimeter">Дециметр</string>
+    <string name="app_dimension_length_meter">Метр</string>
+    <string name="app_dimension_length_kilometer">Километр</string>
+    <string name="app_dimension_length_inch">Дюйм</string>
+    <string name="app_dimension_length_foot">Фут</string>
+    <string name="app_dimension_length_yard">Ярд</string>
+    <string name="app_dimension_length_mile_int">Миля (международная)</string>
+    <string name="app_dimension_length_arshin">Аршин</string>
+    <string name="app_dimension_length_sazhen">Сажень</string>
+    <string name="app_dimension_length_milestone">Верста</string>
+    <string name="app_dimension_length_light_year">Световой год</string>
+    <string name="app_dimension_length_angstrom">Ангстрем</string>
+    <string name="app_dimension_length_elbow">Локоть (древневосточный)</string>
+    <string name="app_dimension_length_vershok">Вершок</string>
+    <string name="app_dimension_length_unit">Юнит</string>
+    <string name="app_dimension_length_leagues_over">Льё (Сухопутное)</string>
+    <string name="app_dimension_length_span">Пядь</string>
+    <string name="app_dimension_length_furlong">Фурлонг</string>
+    <string name="app_dimension_length_parsec">Парсек</string>
+    <string name="app_dimension_length_astronomical_unit">Астрономическая единица</string>
+    <string name="app_dimension_length_nautical_mile_uk">Морская миля (UK)</string>
+    <string name="app_dimension_length_nautical_mile_int">Морская миля (международная)</string>
+    <string name="app_dimension_length_atomic_unit">Атомная единица</string>
+    <string name="app_dimension_length_caliber">Калибр</string>
+    <string name="app_dimension_length_electron_radius_cl">Радиус электрона (классический)</string>
+    <string name="app_dimension_length_bohr_radius">Боровский радиус</string>
+    <string name="app_dimension_length_earths_equatorial_radius">Экваториальный радиус Земли</string>
+    <string name="app_dimension_length_earths_polar_radius">Полярный радиус Земли</string>
+    <string name="app_dimension_length_earths_sun_distance">Расстояние от земли до Солнца</string>
+    <string name="app_dimension_length_sun_radius">Радиус Солнца</string>
+    <string name="app_dimension_length_planck_length">Планковская днина</string>
+    <string name="app_dimension_length_hand">Кисть</string>
+    <string name="app_dimension_length_finger">Палец</string>
+    <string name="app_dimension_length_handbreadth_uk">Ладонь (UK)</string>
+    <string name="app_dimension_length_aln_sw">Локоть (Шведский)</string>
+    <string name="app_dimension_length_ken_j">Кен (Японский)</string>
+    <string name="app_dimension_length_centiinch">Сантидюйм</string>
+    <string name="app_dimension_length_point">Типографский пункт</string>
+    <string name="app_dimension_length_fathom">Сажень</string>
+    <string name="app_dimension_length_rod">Род</string>
+    <string name="app_dimension_length_inch_us">Дюйм (US геодезический)</string>
+    <string name="app_dimension_length_foot_us">Фут (US геодезический)</string>
+    <string name="app_dimension_length_fathom_us">Сажень (US геодезический)</string>
+    <string name="app_dimension_length_rod_us">Род (US геодезический)</string>
+    <string name="app_dimension_length_chain_us">Чейн (US геодезический)</string>
+    <string name="app_dimension_length_furlong_us">Фарлонд (US геодезический)</string>
+    <string name="app_dimension_length_mile_us">Миля (US геодезическая)</string>
+    <string name="app_dimension_length_league">Лига</string>
+    <string name="app_dimension_length_nautical_league_uk">Морская лига (UK)</string>
+    <string name="app_dimension_length_nautical_league_int">Морская лига (международная)</string>
+    <string name="app_dimension_length_cable_length">Кабельтов</string>
 </resources>

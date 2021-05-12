@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="factor_length_array" format="float" type="dimen">
+        <item>1.0</item>
+        <item>0.5</item>
+        <item>0.1</item>
+    </array>
+    <array name="dimension_length_array">
+        <item>@string/app_dimension_length_picometer</item>
+        <item>@string/app_dimension_length_nanometre</item>
+        <item>@string/app_dimension_length_micrometer</item>
+        <item>@string/app_dimension_length_millimeter</item>
+        <item>@string/app_dimension_length_centimeter</item>
+        <item>@string/app_dimension_length_decimeter</item>
+        <item>@string/app_dimension_length_meter</item>
+        <item>@string/app_dimension_length_kilometer</item>
+        <item>@string/app_dimension_length_inch</item>
+        <item>@string/app_dimension_length_foot</item>
+        <item>@string/app_dimension_length_yard</item>
+        <item>@string/app_dimension_length_mile_int</item>
+        <item>@string/app_dimension_length_arshin</item>
+        <item>@string/app_dimension_length_sazhen</item>
+        <item>@string/app_dimension_length_milestone</item>
+        <item>@string/app_dimension_length_light_year</item>
+        <item>@string/app_dimension_length_angstrom</item>
+        <item>@string/app_dimension_length_elbow</item>
+        <item>@string/app_dimension_length_vershok</item>
+        <item>@string/app_dimension_length_unit</item>
+        <item>@string/app_dimension_length_leagues_over</item>
+        <item>@string/app_dimension_length_span</item>
+        <item>@string/app_dimension_length_furlong</item>
+        <item>@string/app_dimension_length_parsec</item>
+        <item>@string/app_dimension_length_astronomical_unit</item>
+        <item>@string/app_dimension_length_nautical_mile_uk</item>
+        <item>@string/app_dimension_length_nautical_mile_int</item>
+        <item>@string/app_dimension_length_atomic_unit</item>
+        <item>@string/app_dimension_length_caliber</item>
+        <item>@string/app_dimension_length_electron_radius_cl</item>
+        <item>@string/app_dimension_length_bohr_radius</item>
+        <item>@string/app_dimension_length_earths_equatorial_radius</item>
+        <item>@string/app_dimension_length_earths_polar_radius</item>
+        <item>@string/app_dimension_length_earths_sun_distance</item>
+        <item>@string/app_dimension_length_sun_radius</item>
+        <item>@string/app_dimension_length_planck_length</item>
+        <item>@string/app_dimension_length_hand</item>
+        <item>@string/app_dimension_length_finger</item>
+        <item>@string/app_dimension_length_handbreadth_uk</item>
+        <item>@string/app_dimension_length_aln_sw</item>
+        <item>@string/app_dimension_length_ken_j</item>
+        <item>@string/app_dimension_length_centiinch</item>
+        <item>@string/app_dimension_length_point</item>
+        <item>@string/app_dimension_length_fathom</item>
+        <item>@string/app_dimension_length_rod</item>
+        <item>@string/app_dimension_length_inch_us</item>
+        <item>@string/app_dimension_length_foot_us</item>
+        <item>@string/app_dimension_length_fathom_us</item>
+        <item>@string/app_dimension_length_rod_us</item>
+        <item>@string/app_dimension_length_chain_us</item>
+        <item>@string/app_dimension_length_furlong_us</item>
+        <item>@string/app_dimension_length_mile_us</item>
+        <item>@string/app_dimension_length_league</item>
+        <item>@string/app_dimension_length_nautical_league_uk</item>
+        <item>@string/app_dimension_length_nautical_league_int</item>
+        <item>@string/app_dimension_length_cable_length</item>
+    </array>
+
+</resources>
