@@ -76,7 +76,7 @@
     <string name="app_section_sound">Звук</string>
 
     <string name="app_dimension_length_picometer">Пикометр</string>
-    <string name="app_dimension_length_nanometre">Nanometre</string>
+    <string name="app_dimension_length_nanometre">Нанометр</string>
     <string name="app_dimension_length_micrometer">Микрометр</string>
     <string name="app_dimension_length_millimeter">Миллиметр</string>
     <string name="app_dimension_length_centimeter">Сантиметр</string>

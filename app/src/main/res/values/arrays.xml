@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="factor_length_array" format="float" type="dimen">
-        <item>1.0</item>
-        <item>0.5</item>
-        <item>0.1</item>
+    <array name="factor_length_array">
+        <item>"1000000000000.0"</item>
+        <item>"1000000000.0"</item>
+        <item>"1000000.0"</item>
+        <item>"1000.0"</item>
+        <item>"100.0"</item>
+        <item>"10.0"</item>
+        <item>"1.0"</item>
+        <item>"0.001"</item>
+        <item>"39.3701"</item>
+        <item>"3.2808"</item>
+        <item>"1.0936"</item>
+        <item>"0.0006"</item>
+        <item>"1.4061"</item>
+        <item>"0.4681"</item>
+        <item>"0.0009"</item>
+        <item>"0.0000000000000001"</item>
+        <item>"10000000000.0"</item>
+        <item>"2.2222"</item>
+        <item>"22.4972"</item>
+        <item>"22.4972"</item>
+        <item>"0.0002"</item>
+        <item>"5.6243"</item>
+        <item>"0.005"</item>
+        <item>"0.00000000000000003"</item>
+        <item>"0.000000000007"</item>
+        <item>"0.0005"</item>
+        <item>"0.0005"</item>
+        <item>"18897259885.7892"</item>
+        <item>"3937.0079"</item>
+        <item>"35486915974080.36"</item>
+        <item>"18897259885.7892"</item>
+        <item>"0.0000002"</item>
+        <item>"0.0000002"</item>
+        <item>"0.000000000007"</item>
+        <item>"0.0000000001"</item>
+        <item>"61879273537330000000000000000000000.0"</item>
+        <item>"9.8425"</item>
+        <item>"51.8672"</item>
+        <item>"13.1234"</item>
+        <item>"1.4401"</item>
+        <item>"0.5501"</item>
+        <item>"39370.0787"</item>
+        <item>"2660.282"</item>
+        <item>"0.5468"</item>
+        <item>"0.1988"</item>
+        <item>"39.37"</item>
+        <item>"0.3048"</item>
+        <item>"0.5467"</item>
+        <item>"0.1988"</item>
+        <item>"0.0497"</item>
+        <item>"0.005"</item>
+        <item>"0.0006"</item>
+        <item>"0.0002"</item>
+        <item>"0.0002"</item>
+        <item>"0.0002"</item>
+        <item>"0.0054"</item>
     </array>
     <array name="dimension_length_array">
         <item>@string/app_dimension_length_picometer</item>
