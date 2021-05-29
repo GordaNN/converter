@@ -111,11 +111,8 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
         }
 
         /* Calculate other values */
-        DecimalFormat formatNormal = new DecimalFormat("0.0");
-        formatNormal.setGroupingUsed(false);
         DecimalFormat formatExponent = new DecimalFormat("0.0E0");
         formatExponent.setMaximumFractionDigits(12);
-        formatExponent.setGroupingUsed(false);
 
         try {
             number = new BigDecimal(s.toString()).divide(number, BigDecimal.ROUND_UP);
@@ -132,6 +129,7 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
                     if (text.indexOf('E') != -1 && text.indexOf("E-") == -1) {
                         text = text.replaceFirst("E", "E+");
                     }
+                    text = text.replace(',', '.');
                 }
                 if (!text.equals(s.toString())) {
                     i.first.setText(text);
