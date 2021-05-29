@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
-import android.text.InputType;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Gravity;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -39,24 +39,22 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
         this.fieldsList = new ArrayList<>(fieldsNumber);
 
         /* Create layouts params */
-        LinearLayout.LayoutParams valueParams = new LinearLayout.LayoutParams(
-                500, LinearLayout.LayoutParams.WRAP_CONTENT);
+        ViewGroup.LayoutParams valueParams = new ViewGroup.LayoutParams(
+                (int)(225 * getResources().getDisplayMetrics().density),
+                ViewGroup.LayoutParams.WRAP_CONTENT);
 
-        LinearLayout.LayoutParams dimensionParams = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        ViewGroup.LayoutParams dimensionParams = new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
         /* Generate fields */
         LinearLayout layoutMain = (LinearLayout) findViewById(R.id.layout);
         for (int i = 0; i < fieldsNumber; ++i) {
             /* Create value filed */
             EditText editText = new EditText(this);
-            editText.setInputType(InputType.TYPE_CLASS_NUMBER |
-                    InputType.TYPE_NUMBER_FLAG_SIGNED |
-                    InputType.TYPE_NUMBER_FLAG_DECIMAL);
             editText.setGravity(Gravity.END);
             editText.addTextChangedListener(this);
 
-            /* Create dimension filed */
+            /* Create dimension field */
             TextView textView = new TextView(this);
             textView.setText(dimensionArray[i]);
 
@@ -94,11 +92,7 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
 
         /* Update all and return if it's null value */
         if (s.toString().equals("")) {
-            for (Pair<EditText, BigDecimal> i : this.fieldsList) {
-                if (i.first != current) {
-                    i.first.setText("");
-                }
-            }
+            this.clearFields(current);
             return;
         }
 
@@ -117,19 +111,39 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
         }
 
         /* Calculate other values */
-        DecimalFormat format = new DecimalFormat("0.0E0");
-        format.setMaximumFractionDigits(12);
-        format.setGroupingUsed(false);
-        number = new BigDecimal(s.toString()).divide(number);
+        DecimalFormat formatNormal = new DecimalFormat("0.0");
+        formatNormal.setGroupingUsed(false);
+        DecimalFormat formatExponent = new DecimalFormat("0.0E0");
+        formatExponent.setMaximumFractionDigits(12);
+        formatExponent.setGroupingUsed(false);
+
+        try {
+            number = new BigDecimal(s.toString()).divide(number, BigDecimal.ROUND_UP);
+        } catch (java.lang.NumberFormatException exception) {
+            this.clearFields(current);
+            return;
+        }
+
         for (Pair<EditText, BigDecimal> i : this.fieldsList) {
             if (i.first != current) {
                 String text = number.multiply(i.second).toString();
-                if (text.length() > 17) {
-                    text = format.format(number.multiply(i.second));
+                if (text.length() > 15) {
+                    text = formatExponent.format(number.multiply(i.second));
+                    if (text.indexOf('E') != -1 && text.indexOf("E-") == -1) {
+                        text = text.replaceFirst("E", "E+");
+                    }
                 }
                 if (!text.equals(s.toString())) {
                     i.first.setText(text);
                 }
+            }
+        }
+    }
+
+    private void clearFields(EditText current) {
+        for (Pair<EditText, BigDecimal> i : this.fieldsList) {
+            if (i.first != current) {
+                i.first.setText("");
             }
         }
     }

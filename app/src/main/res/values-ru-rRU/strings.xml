@@ -110,7 +110,7 @@
     <string name="app_dimension_length_earths_polar_radius">Полярный радиус Земли</string>
     <string name="app_dimension_length_earths_sun_distance">Расстояние от земли до Солнца</string>
     <string name="app_dimension_length_sun_radius">Радиус Солнца</string>
-    <string name="app_dimension_length_planck_length">Планковская днина</string>
+    <string name="app_dimension_length_planck_length">Планковская длина</string>
     <string name="app_dimension_length_hand">Кисть</string>
     <string name="app_dimension_length_finger">Палец</string>
     <string name="app_dimension_length_handbreadth_uk">Ладонь (UK)</string>
