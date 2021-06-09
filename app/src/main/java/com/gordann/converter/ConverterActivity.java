@@ -15,9 +15,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.util.Pair;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class ConverterActivity extends AppCompatActivity implements TextWatcher {
-    private List<Pair<EditText, BigDecimal>> fieldsList;
+    private ArrayList<Pair<EditText, BigDecimal>> fieldsList;
+    private final String NUMBERS_KEY = "numbers_key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +78,20 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
     }
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putString(NUMBERS_KEY, this.fieldsList.get(0).first.getText().toString());
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        this.fieldsList.get(0).first.setText(savedInstanceState.getString(NUMBERS_KEY));
+    }
+
+    @Override
     public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
 
     @Override
@@ -84,6 +100,9 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
     @Override
     public void afterTextChanged(Editable s) {
         EditText current = (EditText) getCurrentFocus();
+        if (current == null) {
+            current = this.fieldsList.get(0).first;
+        }
 
         /* Return if it isn't current */
         if (current.getText() != s) {
@@ -115,7 +134,7 @@ public class ConverterActivity extends AppCompatActivity implements TextWatcher 
         formatExponent.setMaximumFractionDigits(12);
 
         try {
-            number = new BigDecimal(s.toString()).divide(number, BigDecimal.ROUND_UP);
+            number = new BigDecimal(s.toString()).divide(number, 40, BigDecimal.ROUND_UP);
         } catch (java.lang.NumberFormatException exception) {
             this.clearFields(current);
             return;
